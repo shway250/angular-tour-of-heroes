@@ -2,7 +2,11 @@
 <div style="text-align:center">
   <h1>{{ title }}</h1>
 </div>
-<app-heroes></app-heroes>
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/">Home</a>
+</nav>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
   
 
